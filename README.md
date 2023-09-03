@@ -5,6 +5,7 @@
 1. GKE - Kubernetes Engine.
 2. Cloud Build - The CI/CD tool responsible for deploying something to GCP from out github is called cloud build. 
 3. GCP Artifact Registry - For storing docker images and others. 
+4. Secret Manager API
 
 
 Sprint: A set period of time during which specific work has to be completed and made ready for review. 
@@ -82,6 +83,25 @@ Deployment Design Things
 
 
 ## Sprint - 04 
+
+Cloud Build: CI/CD tool to build the softwares. 
+
+Why:
+1. Build software quickly across all programming languages, including go, java, nodejs and more. 
+2. Chose from 15 machine types and run hundreds of concurrent build per pool. 
+3. Deploy across multiple environments such as VMs, serverless, k8s or Firebase. 
+4. Access cloud-hosted, fully managed CI/CD workflows within your private network. 
+5. Keep your data at rest within a geographical region or specific location with data residency. 
+
+Cloud Build connects to github using tool named Cloud Build Trigger.
+
+Connecting your github repo to cloud build:
+
+1. Search for cloud build and enable it. 
+2. Select 2nd gen, clink on link repository. 
+3. It may ask to enable Secret Manager API, enable it. 
+4. Authenticate github repo. 
+
 
 
 
