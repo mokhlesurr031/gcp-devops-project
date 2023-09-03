@@ -124,6 +124,11 @@ Steps:
 ## Sprint - 06
 
 Exposing our Application. 
+ - code 
+
+## Sprint - 07
+
+Development setup for testing. 
 
 
 
