@@ -105,6 +105,23 @@ Connecting your github repo to cloud build:
 
 
 
+## Sprint - 05
+
+Extending the CI/CD process to deploy our Docker image on GKE cluster. 
+
+Steps:
+1. Creating a namespace in GKE cluster.
+    a. Using cloud shell or terminal. 
+    b. kubectl create namespace <name>
+2. Creating a deployment file. 
+    - in code
+3. Update the Cloud Build code for deployment.
+    - in code
+4. Validating the deployment. 
+
+
+
+
 
 
 
