@@ -11,7 +11,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args:
   - run
-  - --filename=gke.yaml
+  - --filename=deployment/gke.yaml
   - --image=gcr.io/$PROJECT_ID/gcpdevops
   - --location=asia-east1-a
   - --cluster=gcp-learning-project
