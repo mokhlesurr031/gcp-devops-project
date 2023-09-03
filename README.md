@@ -9,7 +9,7 @@ Steps of sprint:
 4. Sprint Review - Review of the work completed. 
 
 
-# Sprint - 01 
+## Sprint - 01 
 
 Sprint Goals: 
 1. Creating a github repository. 
