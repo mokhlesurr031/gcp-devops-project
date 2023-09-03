@@ -1,5 +1,12 @@
 # GCP DevOps Project
 
+
+### GCP services used:
+1. GKE - Kubernetes Engine.
+2. Cloud Build - The CI/CD tool responsible for deploying something to GCP from out github is called cloud build. 
+3. GCP Artifact Registry - For storing docker images and others. 
+
+
 Sprint: A set period of time during which specific work has to be completed and made ready for review. 
 
 Steps of sprint:
@@ -54,7 +61,27 @@ Creating GKE cluster:
 
 Node Pool: Is a bunch of machines that are put together, and they will be attached as the on pool of the machine in the GKE cluster. 
 
+CLI installation: https://www.educative.io/answers/how-to-install-google-cloud-cli-on-debian-ubuntu
+Connect Plugin: sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 
+
+
+## Sprint - 03
+
+Spring Goals:
+
+Deployment Design Things
+
+1. CI/CD Desing process.
+2. Deploying CI/CD process.
+    a. Automated way to build the docker image.
+    b. Store the docker image in an artifactory. 
+    c. Write deployment/service yaml in k8s for deployment. 
+    d. Setup CD to deploy this code to GKE using the docker image stored in artifactory. 
+
+
+
+## Sprint - 04 
 
 
 
